@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="files/cv2html.xsl"?>
+<curriculum>
+   <cvPart type="identity">
+      <persName>Josselin Morvan</persName>
+      <occupation>Ingénieur d’étude</occupation>
+      <contact>
+         <address>
+            <addrLine>3, route de Farceaux</addrLine>
+            <addrLine>27150 Frenelles-en-Vexin</addrLine>
+         </address>
+         <phone>+33 6 60 12 14 20</phone>
+         <mail><ref type="mailto" target="morvan.josselin@gmail.com">morvan.josselin@gmail.com</ref></mail>
+         <github><ref type="link" target="https://github.com/sardinecan">sardinecan</ref></github>
+      </contact>
+   </cvPart>
+   <cvPart type="education">
+      <head>Formation</head>
+      <cvEntry type="diploma">
+         <orgName>Getty</orgName>
+         <placeName>Pittsburg</placeName>
+         <date from="2019-07-01" to="2021-12-31"/>
+         <degree>
+            <emph>The Getty Advanced Workshop on Network Analysis and Digital Art History</emph> (NA+DAH) 
+            <ref type="link" target="https://sites.haa.pitt.edu/na-dah/">https://sites.haa.pitt.edu/na-dah/</ref>
+         </degree>
+      </cvEntry>
+      <cvEntry type="diploma">
+         <orgName>École nationale des chartes</orgName>
+         <placeName>Paris</placeName>
+         <date from="2013-09-01" to="2015-06-30"/>
+         <degree>Master « nouvelles technologies appliquées à l’histoire », mention très bien.</degree>
+      </cvEntry>
+      <cvEntry type="diploma">
+         <orgName>Université Paris-Ouest Nanterre</orgName>
+         <placeName>Nanterre</placeName>
+         <date from="2010-09-01" to="2013-06-30"/>
+         <degree>Licence Histoire de l’Art, parcours documentation</degree>
+      </cvEntry>
+      <cvEntry type="diploma">
+         <orgName>Université de Cergy-Pontoise</orgName>
+         <placeName>Cergy-Pontoise</placeName>
+         <date from="2007-09-01" to="2010-06-30"/>
+         <degree>Licence Droit</degree>
+      </cvEntry>
+   </cvPart>
+   <cvPart type="examination">
+      <head>Concours</head>
+      <cvEntry type="examination">
+         <orgName>CNRS</orgName>
+         <desc>Concours externe n° 85 BAP D pour l’accès au corps des Ingénieurs d'études</desc>
+         <date when="2020-11-09"/>
+         <rank>classé n°1 sur la liste complémentaire</rank>
+      </cvEntry>
+   </cvPart>
+   <cvPart type="workExperience">
+      <head>Expérience professionnelle</head>
+      <cvEntry type="experience">
+         <position>Enseignant vacataire</position>
+         <orgName>Université Paris Nanterre - UFR PHILLIA</orgName>
+         <placeName>Nanterre</placeName>
+         <date from="2021-10-01" to="2021-12-31"/>
+         <list type="taks">
+            <item>Cours d’informatique pour la gestion de l’ information </item>
+            <item>introduction aux technologies XML pour les Master 1 mention Information, communication [Documents électroniques et flux d’informations]</item>
+         </list>
+      </cvEntry>
+      <cvEntry type="experience">
+         <position>Ingénieur d’étude (mi-temps)</position>
+         <orgName>Université Cergy-Paris - projet Testaments de Poilus</orgName>
+         <placeName>Cergy-Pontoise</placeName>
+         <date from="2021-02-01" to="2021-09-30"/>
+         <list type="taks">
+            <item>Correction de l’encodage TEI </item>
+            <item>Amélioration du modèle et des scripts </item>
+            <item>Contribution à la consolidation de la plateforme de restitution en ligne </item>
+            <item>Liaison avec la communauté scientifique et les bénévoles autour du projet</item>
+         </list>
+      </cvEntry>
+      <cvEntry type="experience">
+         <position>Vacataire (140h)</position>
+         <orgName>Université Cergy-Paris - projet Testaments de Poilus</orgName>
+         <placeName>Cergy-Pontoise</placeName>
+         <date from="2020-09-30" to="2020-12-31"/>
+         <list type="taks">
+            <item>Correction de l’encodage TEI </item>
+            <item>Amélioration du modèle et des scripts </item>
+            <item>Contribution à la consolidation de la plateforme de restitution en ligne </item>
+            <item>Liaison avec la communauté scientifique et les bénévoles autour du projet</item>
+         </list>
+      </cvEntry>
+      <cvEntry type="experience">
+         <position>Ingénieur d’étude (mi-temps)</position>
+         <orgName>CNRS - ANR Pratiques des savoirs entre jugement et innovation. Experts, expertises du bâtiment, Paris 1690-1790 – EXPERTS</orgName>
+         <placeName>Paris</placeName>
+         <date from="2018-04-01" to="2021-12-31"/>
+         <list type="taks">
+            <item>Développement d’une application web avec BaseX et XQuery, et respectant les spécifications RestXQ, pour la saisie, l’enregistrement et la visualisation des données. </item>
+            <item>Réalisation d’un modèle de données XML pour le dépouillement des procès-verbaux d’expertise de la sous-série Z1J des AN (modèle réalisé à partir d’une fiche établie par l’équipe du projet). </item>
+            <item>État de l’art de la prosopographie numérique, évaluation des modèles de données existants et développement d’un module prosopographique pour l’application Expert aligné sur les standards archivistiques (EAC-CPF (étendu) et Records in Contexts). </item>
+            <item>Création des formulaires web avec le standard Xforms pour la saisie des données du projet (p-v d’expertise, prosopographie et inventaire après-décès). </item>
+            <item>Participation à l’analyse de réseaux du corpus d’experts : production et analyse des graphes et métriques, Dataviz avec Julia et R.</item>
+         </list>
+      </cvEntry>
+      <cvEntry type="experience">
+         <position>Ingénieur d’étude (mi-temps)</position>
+         <orgName>CNRS - ANR Inventaire analytique et matériel de la correspondance de Condorcet</orgName>
+         <placeName>Paris</placeName>
+         <date from="2018-04-01" to="2019-09-30"/>
+         <list type="taks">
+            <item>Encodage en TEI de la correspondance de Condorcet (lettres conservées à la Bibliothèque de l’Institut). </item>
+            <item>Révision du modèle TEI pour l’encodage des plumitifs des séances de l’Académie royale des sciences. </item>
+            <item>Révision des normes d’établissement du texte.</item>
+         </list>
+      </cvEntry>
+      <cvEntry type="experience">
+         <position>Ingénieur d’étude (auto-entreprise)</position>
+         <orgName>Université Paris VIII – Laboratoire d’Économie Dionysien - projet Inventaire Condorcet</orgName>
+         <placeName>Saint-Denis</placeName>
+         <date from="2017-07-01" to="2017-08-31"/>
+         <list type="taks">
+            <item>Encodage en TEI de la correspondance de Condorcet (Lettres du colloque La correspondance scientifique de Condorcet avec les provinces française et autres lettres). </item>
+            <item>Implémentation du standard MathML dans la personnalisation ODD pour l’encodage des formules mathématiques. </item>
+            <item>Développement de feuilles Xslt pour sorties LATEX et web.</item>
+         </list>
+      </cvEntry>
+      <cvEntry type="experience">
+         <position>Ingénieur d’étude (temps plein)</position>
+         <orgName>Université Paris-Nanterre – LabEx les passés dans le présent, projet Guides de Paris</orgName>
+         <placeName>Nanterre</placeName>
+         <date from="2016-06-01" to="2017-12-31"/>
+         <list type="taks">
+            <item>Transcription et encodage TEI de la Description de Paris, de Versailles, de Marly, &amp;c. par Piganiol de La Force, huit tomes (édition de 1742). </item>
+            <item>Transcription et encodage TEI de la Description nouvelle de ce qu’il y a de plus remarquable dans la ville de Paris par Germain Brice, deux tomes (édition de 1684).</item>
+            <item>Transcription et encodage TEI du Paris ancien et nouveau de Charles Le Maire (édition de 1685), trois tomes. </item>
+            <item>Rédaction collective du cahier des charges concernant la maîtrise d’ouvrage pour la réalisation de la charte graphique de l’application des Guides de Paris. </item>
+            <item>Développements XQuery pour la mise en ligne de l’application des Guides de Paris.</item>
+         </list>
+      </cvEntry>
+      <cvEntry type="experience">
+         <position>Vacataire</position>
+         <orgName>Université Paris VIII - Laboratoire d’Économie Dionysien - projet Inventaire Condorcet</orgName>
+         <placeName>Saint-Denis</placeName>
+         <date from="2016-04-01" to="2016-05-31"/>
+         <list type="taks">
+            <item>Encodage de la correspondance Condorcet (correpondance Condorcet-Ruault dans le cadre de l’Édition de Khel). </item>
+            <item>Réalisation d’un modèle TEI (ODD) pour l’encodage de la correspondance de Condorcet et d’un tutoriel de saisie.</item>
+         </list>
+      </cvEntry>
+      <cvEntry type="experience">
+         <position>Auto-entrepreneur</position>
+         <orgName>Bibliothèque municipale de Nancy - Projet Journal de Durival</orgName>
+         <placeName>Nancy</placeName>
+         <date from="2015-12-01" to="2016-06-30"/>
+         <list type="tasks">
+            <item>Réalisation d’un modèle TEI (ODD) pour l’édition en ligne du journal de Nicolas Durival </item>
+            <item>Transcription et encodage des années 1765 et 1766 du journal. – Réalisation de feuilles Xslt (TEI vers html et TEI vers LATEX). </item>
+            <item>Développement d’une interface de consultation web.</item>
+         </list>
+         <list type="resources">
+            <item><ref type="link" target="https://github.com/bibstan/ProjetDurival">Fichiers sources</ref></item>
+            <item><ref type="link" target="http://journaldedurival.fr">Site web de l’édition</ref></item>
+         </list>
+      </cvEntry>
+      <cvEntry type="experience">
+         <position>Vacataire (70h/mois)</position>
+         <orgName>Institut ACTE - UMR 8218, projet Collecta</orgName>
+         <placeName>Paris</placeName>
+         <date from="2015-11-01" to="2016-04-30"/>
+         <list type="tasks">
+            <item>Réalisation d’un modèle TEI pour la rétroconvertion de l’inventaire après-décès de François-Roger de Gaignières permettant de rendre compte de l’évolution de la collection. </item>
+            <item>Identification des gardes et conservateurs (20) ayant commenté l’inventaire et encodage des annotations. </item>
+            <item>Réalisation d’une feuille Xslt (TEI vers Html) pour consultation web.</item>
+         </list>
+         <list type="resources">
+            <item><ref type="link" target="http://www.collecta.fr/">Site web du projet</ref></item>
+         </list>
+      </cvEntry>
+      <cvEntry type="experience">
+         <position>Stagiaire (stage de fin d’études)</position>
+         <orgName>Bibliothèque de Documentation Internationale Contemporaine - Édition de la correspondance d’Armand Horel</orgName>
+         <placeName>Nanterre</placeName>
+         <date from="2015-04-01" to="2015-07-31"/>
+         <list type="tasks">
+            <item>Réalisation d’un modèle TEI (ODD) pour l’édition électronique de correspondances de poilus avec documentation et manuel d’encodage). </item>
+            <item>Édition de la correspondance d’Armand Horel (recherches biographiques, transcription et encodage d’une centaine de cartes postales et enveloppes).</item>
+            <item>Création d’un site web pour la publication de la correspondance (développements Xslt - css - html - Javascript (géolocalisation et frise chronologique)). </item>
+            <item>Présentation et formation accélérée du personnel de la BDIC sur les possibilités offertes par le langage XML-TEI.</item>
+         </list>
+         <list type="resources">
+            <item><ref type="link" target="https://github.com/sardinecan/horel">fichiers sources</ref></item>
+            <intem><ref type="link" target="http://www.bdic.fr/expositions/horel/">Site web de l’édition</ref></intem>
+         </list>
+      </cvEntry>
+      <cvEntry type="experience">
+         <position>Vacataire</position>
+         <orgName>École nationale des chartes</orgName>
+         <placeName>Paris</placeName>
+         <date when="2015-01-01"/>
+         <list type="tasks">
+            <item>Réalisation d’un fichier des donateurs et d’une base de données associée pour le mécénat « Sauvez nos reliures ».</item>
+         </list>
+      </cvEntry>
+      <cvEntry type="experience">
+         <position>Vacataire de recherche (70h/mois)</position>
+         <orgName>Université Paris-Nanterre – LabEx les passés dans le présent, projet Le devenir du patrimoine numérisé en ligne</orgName>
+         <placeName>Nanterre</placeName>
+         <date from="2014-11-01" to="2015-04-30"/>
+         <list type="tasks">
+            <item>Veille informatique et médiation autour d’un corpus photographique. </item>
+            <item>Évaluation des outils de recherche inversée d’images disponibles en ligne et mise en place d’un protocole de veille.</item>
+         </list>
+      </cvEntry>
+      <cvEntry type="experience">
+         <position>Stagiaire</position>
+         <orgName>Société de vente volontaire Cousin et Cie</orgName>
+         <placeName>Les Andelys</placeName>
+         <date when="2013-07-01"/>
+         <list type="tasks">
+            <item>Inventaire, étiquetage, recherches, assistant de vente.</item>
+         </list>
+      </cvEntry>
+      <cvEntry type="experience">
+         <position>Conseiller d’accueil (CDI étudiant 1/5e)</position>
+         <orgName>LCL le crédit lyonnais</orgName>
+         <placeName>Gisors</placeName>
+         <date from="2010-07_01" to="2015-01-31"/>
+         <list type="tasks">
+            <item>Accueil client et opérations de banque.</item>
+         </list>
+      </cvEntry>
+      <cvEntry type="experience">
+         <position>Agent des services hospitaliers</position>
+         <orgName>Centre hospitalier de Carnelle</orgName>
+         <placeName>Saint-Martin-du-Tertre</placeName>
+         <date from="2008-02-01" to="2008-08-31"/>
+      </cvEntry>
+   </cvPart>
+   <cvPart type="skills">
+      <head>Compétences techniques</head>
+      <cvEntry type="programming">
+         <head>Langages de programmation</head>
+         <list>
+            <item>XSLT</item>
+            <item>XQuery</item>
+            <item>Julia</item>
+            <item>R</item>
+            <item>php</item>
+            <item>Javascript (notions)</item>
+         </list>
+      </cvEntry>
+      <cvEntry type="query">
+         <head>Langages de requête</head>
+         <list>
+            <item>XPath</item>
+            <item>SQL</item>
+            <item>SPARQL</item>
+         </list>
+      </cvEntry>
+      <cvEntry type="encoding">
+         <head>Langages et dialectes de balisage</head>
+         <list>
+            <item>XForms</item>
+            <item>TEI</item>
+            <item>EAD</item>
+            <item>EAC-CPF</item>
+            <item>MathML</item>
+            <item>Gexf</item>
+            <item>GraphML</item>
+            <item>HTML</item>
+            <item>LaTeX</item>
+            <item>Schémas TEI-ODD</item>
+            <item>XML schema</item>
+            <item>RelaxNG</item>
+         </list>
+      </cvEntry>
+      <cvEntry type="other">
+         <head>Autres</head>
+         <list>
+            <item>Git</item>
+            <item>BaseX</item>
+            <item>Svelte</item>
+         </list>
+      </cvEntry>
+   </cvPart>
+   <cvPart type="openSource">
+      <head>Projets open source</head>
+      <cvEntry type="project">
+         <head>eacForms</head>
+         <desc>Un formulaire en ligne multilingue pour la création d’instances XML-EAC-CPF (v2) et utilisant le client XSLTForms</desc>
+         <list type="resources">
+            <item><ref type="link" target="https://sardinecan.github.io/eacForms/">Formulaire en ligne (ß)</ref></item>
+            <item><ref type="link" target="https://github.com/sardinecan/eacForms">code source</ref></item>
+         </list>
+      </cvEntry>
+   </cvPart>
+   <cvPart type="publications">
+      <head>Liste des travaux / publications</head>
+      <cvEntry type="scholar">
+         <head>Travaux universitaires</head>
+         <bibl>Modélisation XML-TEI, XSLT et publication web : La correspondance d’Armand Horel, un marin durant la Grande Guerre, mémoire de master « Technologies numériques appliquées à l’histoire », dir. [Frédérique Joannic-Seta], École nationale des chartes, 2015.</bibl>
+      </cvEntry>
+      <cvEntry type="article">
+         <head>Articles</head>
+         <bibl>« Le devenir du patrimoine numérisé en ligne : étudier la dissémination des images de la Grande Guerre », in Journal de la BDIC, 38 (avril 2015), p. 6-7</bibl>
+         <bibl>« Un modèle d’édition électronique de correspondances », in Journal de la BDIC, 39 (octobre 2015), p. 3</bibl>
+      </cvEntry>
+      <cvEntry type="communications">
+         <head>Communications</head>
+         <bibl>Château-Dutier, Emmanuel et Morvan, Josselin. Un outil de dépouillement de sources archivistiques basé sur des technologies XML. In : Humanistica. Colloque Humanistica 2021, 10-12 mai 2021, Rennes.</bibl>
+         <bibl>Château-Dutier, E., Morvan, J. et R. Carvais, 2021, « La répartition des affaires au sein de la communauté d’experts-jurés parisiens du bâtiment au XVIIIe siècle : approche quantitative et analyse de réseau bi-parti pour 1726 », in RESHIST, en ligne, URL : <ref type="link" target="https://reshist.hypotheses.org/1663">https://reshist.hypotheses.org/1663</ref>.</bibl>
+         <bibl>Morvan, J, « Éditer une correspondance en XML-TEI », in Inventorier les correspondances des Lumières : Analyse matérielle et traitements numériques, 2022, centre international d’étude du xviiie siècle ferney-voltaire. [à paraître]</bibl>
+      </cvEntry>
+   </cvPart>
+</curriculum>

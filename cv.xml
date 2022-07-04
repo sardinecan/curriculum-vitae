@@ -56,6 +56,31 @@
    <cvPart type="workExperience">
       <head>Expérience professionnelle</head>
       <cvEntry type="experience">
+         <position>Ingénieur d’étude (mi-temps)</position>
+         <orgName>Université Cergy-Paris - projet Testaments de Poilus</orgName>
+         <placeName>Cergy-Pontoise</placeName>
+         <date from="2022-03-01" to="2022-09-15"/>
+         <list type="taks">
+            <item>Correction de l’encodage TEI </item>
+            <item>Amélioration du modèle et des scripts </item>
+            <item>Contribution à la consolidation de la plateforme de restitution en ligne </item>
+            <item>Liaison avec la communauté scientifique et les bénévoles autour du projet</item>
+         </list>
+      </cvEntry>
+      <cvEntry type="experience">
+         <position>Ingénieur d’étude (freelance)</position>
+         <orgName>ANR Pratiques des savoirs entre jugement et innovation. Experts, expertises du bâtiment, Paris 1690-1790 – EXPERTS</orgName>
+         <placeName>Paris</placeName>
+         <date from="2022-02-01" to="2022-09-31"/>
+         <list type="taks">
+            <item>Développement d’une application web avec BaseX et XQuery, et respectant les spécifications RestXQ, pour la saisie, l’enregistrement et la visualisation des données. </item>
+            <item>Réalisation d’un modèle de données XML pour le dépouillement des procès-verbaux d’expertise de la sous-série Z1J des AN (modèle réalisé à partir d’une fiche établie par l’équipe du projet). </item>
+            <item>État de l’art de la prosopographie numérique, évaluation des modèles de données existants et développement d’un module prosopographique pour l’application Expert aligné sur les standards archivistiques (EAC-CPF (étendu) et Records in Contexts). </item>
+            <item>Création des formulaires web avec le standard Xforms pour la saisie des données du projet (p-v d’expertise, prosopographie et inventaire après-décès). </item>
+            <item>Participation à l’analyse de réseaux du corpus d’experts : production et analyse des graphes et métriques, Dataviz avec Julia et R.</item>
+         </list>
+      </cvEntry>
+      <cvEntry type="experience">
          <position>Enseignant vacataire</position>
          <orgName>Université Paris Nanterre - UFR PHILLIA</orgName>
          <placeName>Nanterre</placeName>

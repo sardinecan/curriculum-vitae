@@ -83,7 +83,22 @@
       </section>
    </xsl:template>
    
-   <xsl:template match="list[@type='resources'] | cvPart[@type='skills']/cvEntry/list">
+   <xsl:template match="list[@type='resources']">
+      <p class="{@type}">
+         <xsl:for-each select="item">
+            <xsl:choose>
+               <xsl:when test="position() != last()">
+                  <xsl:apply-templates/><xsl:text> | </xsl:text>
+               </xsl:when>
+               <xsl:otherwise>
+                  <xsl:apply-templates/>
+               </xsl:otherwise>
+            </xsl:choose>
+         </xsl:for-each>
+      </p>
+   </xsl:template>
+   
+   <xsl:template match="cvPart[@type='skills']/cvEntry/list">
       <p class="skills">
          <xsl:for-each select="item">
             <xsl:choose>

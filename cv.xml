@@ -56,28 +56,44 @@
    <cvPart type="workExperience">
       <head>Expérience professionnelle</head>
       <cvEntry type="experience">
-         <position>Ingénieur d’étude (mi-temps)</position>
-         <orgName>Université Cergy-Paris - projet Testaments de Poilus</orgName>
-         <placeName>Cergy-Pontoise</placeName>
-         <date from="2022-03-01" to="2022-09-15"/>
-         <list type="taks">
-            <item>Correction de l’encodage TEI </item>
-            <item>Amélioration du modèle et des scripts </item>
-            <item>Contribution à la consolidation de la plateforme de restitution en ligne </item>
-            <item>Liaison avec la communauté scientifique et les bénévoles autour du projet</item>
+         <position>Ingénieur d’étude (auto-entreprise)</position>
+         <orgName>Université Paris VIII – Laboratoire d’Économie Dionysien - projet Inventaire Condorcet</orgName>
+         <placeName>Saint-Denis</placeName>
+         <date from="2022-04-11" to="2022-06-14"/>
+         <list type="tasks">
+            <item>Encadrement et formation de deux stagiaires pour l'encodage en XML-TEI de la correspondance de Condorcet et du plumitif de l'Académie royale des sciences pour l'année 1768 par Fouchy.</item>
          </list>
       </cvEntry>
       <cvEntry type="experience">
-         <position>Ingénieur d’étude (freelance)</position>
+         <position>Ingénieur de recherche (mi-temps)</position>
+         <orgName>Université Cergy-Paris - projet Testaments de Poilus</orgName>
+         <placeName>Cergy-Pontoise</placeName>
+         <date from="2022-03-01" to="2022-09-15"/>
+         <list type="tasks">
+            <item>Validation de l’encodage TEI des testaments dans la plateforme de transcription collaborative ;</item>
+            <item>relectures et contrôle de qualité manuel, publication des fichiers TEI ;</item>
+            <item>liaison avec la communauté scientifique et les bénévoles autour du projet.</item>
+         </list>
+         <list type="resources">
+            <item><ref type="link" target="https://testaments-de-poilus.huma-num.fr/#!/">Plateforme de transcription</ref></item>
+            <item><ref type="link" target="https://edition-testaments-de-poilus.huma-num.fr/">Plateforme d’édition</ref></item>
+            <item><ref type="link" target="https://github.com/ArchivesNationalesFR/editionTestamentsDePoilus">Transcriptions XML-TEI des testaments</ref></item>
+         </list>
+      </cvEntry>
+      <cvEntry type="experience">
+         <position>Ingénieur d’étude (auto-entreprise)</position>
          <orgName>ANR Pratiques des savoirs entre jugement et innovation. Experts, expertises du bâtiment, Paris 1690-1790 – EXPERTS</orgName>
          <placeName>Paris</placeName>
-         <date from="2022-02-01" to="2022-09-31"/>
-         <list type="taks">
-            <item>Développement d’une application web avec BaseX et XQuery, et respectant les spécifications RestXQ, pour la saisie, l’enregistrement et la visualisation des données. </item>
-            <item>Réalisation d’un modèle de données XML pour le dépouillement des procès-verbaux d’expertise de la sous-série Z1J des AN (modèle réalisé à partir d’une fiche établie par l’équipe du projet). </item>
-            <item>État de l’art de la prosopographie numérique, évaluation des modèles de données existants et développement d’un module prosopographique pour l’application Expert aligné sur les standards archivistiques (EAC-CPF (étendu) et Records in Contexts). </item>
-            <item>Création des formulaires web avec le standard Xforms pour la saisie des données du projet (p-v d’expertise, prosopographie et inventaire après-décès). </item>
-            <item>Participation à l’analyse de réseaux du corpus d’experts : production et analyse des graphes et métriques, Dataviz avec Julia et R.</item>
+         <date from="2022-02-01" to="2022-09-30"/>
+         <list type="tasks">
+            <item>Développement d'un client pour la publication des données de la recherche avec le framework <ref type="link" target="https://kit.svelte.dev/">Svelte</ref> ;</item>
+            <item>nettoyage des données ;</item>
+            <item>conversion des données XML vers JSON ;</item>
+            <item>refonte et alignement du modèle prosopographique avec la norme EAC-CPF v2.</item>
+         </list>
+         <list type="resources">
+            <item><ref type="link" target="https://experts.huma-num.fr">Application Experts</ref></item>
+            <item><ref type="link" target="https://github.com/anrExperts">Répertoires Github du projet</ref></item>
          </list>
       </cvEntry>
       <cvEntry type="experience">
@@ -85,33 +101,55 @@
          <orgName>Université Paris Nanterre - UFR PHILLIA</orgName>
          <placeName>Nanterre</placeName>
          <date from="2021-10-01" to="2021-12-31"/>
-         <list type="taks">
-            <item>Cours d’informatique pour la gestion de l’ information </item>
-            <item>introduction aux technologies XML pour les Master 1 mention Information, communication [Documents électroniques et flux d’informations]</item>
+         <list type="tasks">
+            <item>Cours d’informatique pour la gestion de l’information ;</item>
+            <item>introduction aux technologies XML master 1 mention Information, communication [Documents électroniques et flux d’informations].</item>
          </list>
       </cvEntry>
       <cvEntry type="experience">
-         <position>Ingénieur d’étude (mi-temps)</position>
+         <position>Ingénieur d’étude (auto-entreprise)</position>
+         <orgName>Université Paris VIII – Laboratoire d’Économie Dionysien - projet Inventaire Condorcet</orgName>
+         <placeName>Saint-Denis</placeName>
+         <date from="2021-10-01" to="2021-12-15"/>
+         <list type="tasks">
+            <item>Encadrement et formation de deux stagiaires pour l'encodage XML-TEI de la correspondance de Condorcet ;</item>
+            <item>refonte de la carte des lieux de conservation avec R et Shiny.</item>
+         </list>
+         <list type="resources">
+            <item><ref type="link" target="https://www.inventaire-condorcet.com/Maps/conservation.php">Carte des lieux de conservation</ref></item>
+         </list>
+      </cvEntry>
+      <cvEntry type="experience">
+         <position>Ingénieur de recherche (mi-temps)</position>
          <orgName>Université Cergy-Paris - projet Testaments de Poilus</orgName>
          <placeName>Cergy-Pontoise</placeName>
          <date from="2021-02-01" to="2021-09-30"/>
-         <list type="taks">
-            <item>Correction de l’encodage TEI </item>
-            <item>Amélioration du modèle et des scripts </item>
-            <item>Contribution à la consolidation de la plateforme de restitution en ligne </item>
-            <item>Liaison avec la communauté scientifique et les bénévoles autour du projet</item>
+         <list type="tasks">
+            <item>Validation de l’encodage TEI des testaments dans la plateforme de transcription collaborative ;</item>
+            <item>relectures et contrôle de qualité manuel, publication des fichiers TEI ;</item>
+            <item>liaison avec la communauté scientifique et les bénévoles autour du projet.</item>
+         </list>
+         <list type="resources">
+            <item><ref type="link" target="https://testaments-de-poilus.huma-num.fr/#!/">Plateforme de transcription</ref></item>
+            <item><ref type="link" target="https://edition-testaments-de-poilus.huma-num.fr/">Plateforme d’édition</ref></item>
+            <item><ref type="link" target="https://github.com/ArchivesNationalesFR/editionTestamentsDePoilus">Transcriptions XML-TEI des testaments</ref></item>
          </list>
       </cvEntry>
       <cvEntry type="experience">
          <position>Vacataire (140h)</position>
          <orgName>Université Cergy-Paris - projet Testaments de Poilus</orgName>
          <placeName>Cergy-Pontoise</placeName>
-         <date from="2020-09-30" to="2020-12-31"/>
-         <list type="taks">
-            <item>Correction de l’encodage TEI </item>
-            <item>Amélioration du modèle et des scripts </item>
-            <item>Contribution à la consolidation de la plateforme de restitution en ligne </item>
-            <item>Liaison avec la communauté scientifique et les bénévoles autour du projet</item>
+         <date from="2020-10-01" to="2020-12-31"/>
+         <list type="tasks">
+            <item>Correction de l’encodage TEI des testaments transcrits par les bénévoles ;</item>
+            <item>amélioration du modèle et des scripts ;</item>
+            <item>contribution à la consolidation de la plateforme de restitution en ligne ;</item>
+            <item>liaison avec la communauté scientifique et les bénévoles autour du projet.</item>
+         </list>
+         <list type="resources">
+            <item><ref type="link" target="https://testaments-de-poilus.huma-num.fr/#!/">Plateforme de transcription</ref></item>
+            <item><ref type="link" target="https://edition-testaments-de-poilus.huma-num.fr/">Plateforme d’édition</ref></item>
+            <item><ref type="link" target="https://github.com/ArchivesNationalesFR/editionTestamentsDePoilus">Transcriptions XML-TEI des testaments</ref></item>
          </list>
       </cvEntry>
       <cvEntry type="experience">
@@ -119,12 +157,16 @@
          <orgName>CNRS - ANR Pratiques des savoirs entre jugement et innovation. Experts, expertises du bâtiment, Paris 1690-1790 – EXPERTS</orgName>
          <placeName>Paris</placeName>
          <date from="2018-04-01" to="2021-12-31"/>
-         <list type="taks">
-            <item>Développement d’une application web avec BaseX et XQuery, et respectant les spécifications RestXQ, pour la saisie, l’enregistrement et la visualisation des données. </item>
-            <item>Réalisation d’un modèle de données XML pour le dépouillement des procès-verbaux d’expertise de la sous-série Z1J des AN (modèle réalisé à partir d’une fiche établie par l’équipe du projet). </item>
-            <item>État de l’art de la prosopographie numérique, évaluation des modèles de données existants et développement d’un module prosopographique pour l’application Expert aligné sur les standards archivistiques (EAC-CPF (étendu) et Records in Contexts). </item>
-            <item>Création des formulaires web avec le standard Xforms pour la saisie des données du projet (p-v d’expertise, prosopographie et inventaire après-décès). </item>
-            <item>Participation à l’analyse de réseaux du corpus d’experts : production et analyse des graphes et métriques, Dataviz avec Julia et R.</item>
+         <list type="tasks">
+            <item>Modélisation XML pour le dépouillement des procès-verbaux d'expertise (sous-série AN Z1J) ;</item>
+            <item>développement d’une application web avec BaseX et XQuery, respectant les spécifications RestXQ, pour la saisie, l’enregistrement et la visualisation des données ;</item>
+            <item>état de l’art de la prosopographie numérique, évaluation des modèles de données existants et développement d’un module prosopographique pour l’application Experts aligné sur les standards archivistiques (EAC-CPF (étendu) et Records in Contexts) ;</item>
+            <item>création des formulaires web avec le standard XForms pour la saisie des données du projet (p-v d’expertise, prosopographie et inventaire après-décès) ;</item>
+            <item>participation à l’analyse de réseaux du corpus d’experts : production et analyse des graphes et métriques, Dataviz avec Julia et R.</item>
+         </list>
+         <list type="resources">
+            <item><ref type="link" target="https://experts.huma-num.fr">Application Experts</ref></item>
+            <item><ref type="link" target="https://github.com/anrExperts">Répertoires Github du projet</ref></item>
          </list>
       </cvEntry>
       <cvEntry type="experience">
@@ -132,10 +174,11 @@
          <orgName>CNRS - ANR Inventaire analytique et matériel de la correspondance de Condorcet</orgName>
          <placeName>Paris</placeName>
          <date from="2018-04-01" to="2019-09-30"/>
-         <list type="taks">
-            <item>Encodage en TEI de la correspondance de Condorcet (lettres conservées à la Bibliothèque de l’Institut). </item>
-            <item>Révision du modèle TEI pour l’encodage des plumitifs des séances de l’Académie royale des sciences. </item>
-            <item>Révision des normes d’établissement du texte.</item>
+         <list type="tasks">
+            <item>Encodage XML-TEI des lettres adressées ou écrites par Condorcet et conservées à la Bibliothèque de l’Institut ;</item>
+            <item>révision du modèle TEI pour l’encodage des plumitifs de l’Académie royale des sciences ;</item>
+            <item>participation à la numérisation des papiers de Condorcet, au contrôle qualité des images ainsi qu'à leur publication ;</item>
+            <item>révision des normes d’établissement du texte.</item>
          </list>
       </cvEntry>
       <cvEntry type="experience">
@@ -143,10 +186,13 @@
          <orgName>Université Paris VIII – Laboratoire d’Économie Dionysien - projet Inventaire Condorcet</orgName>
          <placeName>Saint-Denis</placeName>
          <date from="2017-07-01" to="2017-08-31"/>
-         <list type="taks">
-            <item>Encodage en TEI de la correspondance de Condorcet (Lettres du colloque La correspondance scientifique de Condorcet avec les provinces française et autres lettres). </item>
-            <item>Implémentation du standard MathML dans la personnalisation ODD pour l’encodage des formules mathématiques. </item>
-            <item>Développement de feuilles Xslt pour sorties LATEX et web.</item>
+         <list type="tasks">
+            <item>Encodage XML-TEI de la correspondance de Condorcet (lettres du colloque « La correspondance scientifique de Condorcet avec les provinces française ») ;</item>
+            <item>implémentation du standard MathML pour l'encodage des notations mathématiques dans la modélisation TEI ;</item>
+            <item>développements XSLT pour sorties LaTeX et HTML.</item>
+         </list>
+         <list type="resources">
+            <item><ref type="link" target="https://www.inventaire-condorcet.com/Inventaire/Correspondance?ID=2264">Exemple de correspondance scientifique publiée avec MathML</ref></item>
          </list>
       </cvEntry>
       <cvEntry type="experience">
@@ -154,12 +200,12 @@
          <orgName>Université Paris-Nanterre – LabEx les passés dans le présent, projet Guides de Paris</orgName>
          <placeName>Nanterre</placeName>
          <date from="2016-06-01" to="2017-12-31"/>
-         <list type="taks">
-            <item>Transcription et encodage TEI de la Description de Paris, de Versailles, de Marly, &amp;c. par Piganiol de La Force, huit tomes (édition de 1742). </item>
-            <item>Transcription et encodage TEI de la Description nouvelle de ce qu’il y a de plus remarquable dans la ville de Paris par Germain Brice, deux tomes (édition de 1684).</item>
-            <item>Transcription et encodage TEI du Paris ancien et nouveau de Charles Le Maire (édition de 1685), trois tomes. </item>
-            <item>Rédaction collective du cahier des charges concernant la maîtrise d’ouvrage pour la réalisation de la charte graphique de l’application des Guides de Paris. </item>
-            <item>Développements XQuery pour la mise en ligne de l’application des Guides de Paris.</item>
+         <list type="tasks">
+            <item>Transcription et encodage TEI de la Description de Paris, de Versailles, de Marly, &amp;c. par Piganiol de La Force, huit tomes (édition de 1742) ;</item>
+            <item>transcription et encodage TEI de la Description nouvelle de ce qu’il y a de plus remarquable dans la ville de Paris par Germain Brice, deux tomes (édition de 1684) ;</item>
+            <item>transcription et encodage TEI du Paris ancien et nouveau de Charles Le Maire (édition de 1685), trois tomes ;</item>
+            <item>participation à la rédaction du cahier des charges pour la maîtrise d’ouvrage pour la réalisation de la charte graphique de l’application des Guides de Paris ;</item>
+            <item>développements XQuery pour la mise en ligne de l’application des Guides de Paris.</item>
          </list>
       </cvEntry>
       <cvEntry type="experience">
@@ -167,9 +213,9 @@
          <orgName>Université Paris VIII - Laboratoire d’Économie Dionysien - projet Inventaire Condorcet</orgName>
          <placeName>Saint-Denis</placeName>
          <date from="2016-04-01" to="2016-05-31"/>
-         <list type="taks">
-            <item>Encodage de la correspondance Condorcet (correpondance Condorcet-Ruault dans le cadre de l’Édition de Khel). </item>
-            <item>Réalisation d’un modèle TEI (ODD) pour l’encodage de la correspondance de Condorcet et d’un tutoriel de saisie.</item>
+         <list type="tasks">
+            <item>Édition électronique de la correspondance Condorcet-Ruault dans le cadre de l'Édition de Khel ;</item>
+            <item>modélisation XML-TEI et réalisation d'un schéma ODD avec manuel d'encodage .</item>
          </list>
       </cvEntry>
       <cvEntry type="experience">
@@ -178,9 +224,9 @@
          <placeName>Nancy</placeName>
          <date from="2015-12-01" to="2016-06-30"/>
          <list type="tasks">
-            <item>Réalisation d’un modèle TEI (ODD) pour l’édition en ligne du journal de Nicolas Durival </item>
-            <item>Transcription et encodage des années 1765 et 1766 du journal. – Réalisation de feuilles Xslt (TEI vers html et TEI vers LATEX). </item>
-            <item>Développement d’une interface de consultation web.</item>
+            <item>Édition électronique du Journal de Nicolas Durival (transcription des années 1765 et 1766) ;</item>
+            <item>modélisation XML-TEI et réalisation d'un schéma ODD avec manuel d'encodage ;</item>
+            <item>Développements XSLT (TEI vers HTML et TEI vers LaTeX).</item>
          </list>
          <list type="resources">
             <item><ref type="link" target="https://github.com/bibstan/ProjetDurival">Fichiers sources</ref></item>
@@ -191,26 +237,28 @@
          <position>Vacataire (70h/mois)</position>
          <orgName>Institut ACTE - UMR 8218, projet Collecta</orgName>
          <placeName>Paris</placeName>
-         <date from="2015-11-01" to="2016-04-30"/>
+         <date from="2015-11-02" to="2016-04-30"/>
          <list type="tasks">
-            <item>Réalisation d’un modèle TEI pour la rétroconvertion de l’inventaire après-décès de François-Roger de Gaignières permettant de rendre compte de l’évolution de la collection. </item>
-            <item>Identification des gardes et conservateurs (20) ayant commenté l’inventaire et encodage des annotations. </item>
-            <item>Réalisation d’une feuille Xslt (TEI vers Html) pour consultation web.</item>
+            <item>Rétroconvertion de l’inventaire après-décès de François-Roger de Gaignières réalisé en 1717 ;</item>
+            <item>modélisation et encodage XML-TEI permettant de rendre compte de l’évolution de la collection ;</item>
+            <item>identification des gardes et conservateurs ayant commenté l’inventaire et encodage des annotations ;</item>
+            <item>développements XSLT (TEI vers Html) pour consultation web.</item>
          </list>
          <list type="resources">
             <item><ref type="link" target="http://www.collecta.fr/">Site web du projet</ref></item>
+            <item><ref type="link" target="https://www.collecta.fr/inventaire-1717.php">Inventaire de 1717</ref></item>
          </list>
       </cvEntry>
       <cvEntry type="experience">
          <position>Stagiaire (stage de fin d’études)</position>
          <orgName>Bibliothèque de Documentation Internationale Contemporaine - Édition de la correspondance d’Armand Horel</orgName>
          <placeName>Nanterre</placeName>
-         <date from="2015-04-01" to="2015-07-31"/>
+         <date from="2015-04-13" to="2015-07-31"/>
          <list type="tasks">
-            <item>Réalisation d’un modèle TEI (ODD) pour l’édition électronique de correspondances de poilus avec documentation et manuel d’encodage). </item>
-            <item>Édition de la correspondance d’Armand Horel (recherches biographiques, transcription et encodage d’une centaine de cartes postales et enveloppes).</item>
-            <item>Création d’un site web pour la publication de la correspondance (développements Xslt - css - html - Javascript (géolocalisation et frise chronologique)). </item>
-            <item>Présentation et formation accélérée du personnel de la BDIC sur les possibilités offertes par le langage XML-TEI.</item>
+            <item>Edition électronique de la correspondance d'Armand Horel (transcription et encodage d'une centaine de cartes postales) ;</item>
+            <item>modélisation XML-TEI et réalisation d'un schéma ODD avec manuel d'encodage ;</item>
+            <item>création d’un site web pour la publication du corpus (feuille XSLT - CSS - HTML - utilisation de bibliothèques Javascript (géolocalisation et frise chronologique)) ;</item>
+            <item>présentation et formation accélérée du personnel de la BDIC sur les possibilités offertes par le langage XML-TEI.</item>
          </list>
          <list type="resources">
             <item><ref type="link" target="https://github.com/sardinecan/horel">fichiers sources</ref></item>
@@ -232,8 +280,8 @@
          <placeName>Nanterre</placeName>
          <date from="2014-11-01" to="2015-04-30"/>
          <list type="tasks">
-            <item>Veille informatique et médiation autour d’un corpus photographique. </item>
-            <item>Évaluation des outils de recherche inversée d’images disponibles en ligne et mise en place d’un protocole de veille.</item>
+            <item>Veille informatique et médiation autour d’un corpus photographique (fonds Valois) ;</item>
+            <item>évaluation des outils de recherche inversée d’images disponibles en ligne et mise en place d’un protocole de veille.</item>
          </list>
       </cvEntry>
       <cvEntry type="experience">
@@ -329,12 +377,13 @@
          <head>Articles</head>
          <bibl>« Le devenir du patrimoine numérisé en ligne : étudier la dissémination des images de la Grande Guerre », in Journal de la BDIC, 38 (avril 2015), p. 6-7</bibl>
          <bibl>« Un modèle d’édition électronique de correspondances », in Journal de la BDIC, 39 (octobre 2015), p. 3</bibl>
+         <bibl>Maurel, L. et Morvan, J. Les circulations sur le web d'un corpus numérisé : l'exemple des albums Valois : Rapport final de la phase 3 du projet « Le devenir en ligne du patrimoine numérisé : l'exemple de la Grande Guerre ». [Rapport de recherche] Bibliothèque nationale de France ; Bibliothèque de documentation internationale contemporaine ; Télécom ParisTech. 2017. ⟨<ref type="link" target="https://hal.archives-ouvertes.fr/hal-01425687">hal-01425687</ref>⟩</bibl>
       </cvEntry>
       <cvEntry type="communications">
          <head>Communications</head>
-         <bibl>Château-Dutier, Emmanuel et Morvan, Josselin. Un outil de dépouillement de sources archivistiques basé sur des technologies XML. In : Humanistica. Colloque Humanistica 2021, 10-12 mai 2021, Rennes.</bibl>
-         <bibl>Château-Dutier, E., Morvan, J. et R. Carvais, 2021, « La répartition des affaires au sein de la communauté d’experts-jurés parisiens du bâtiment au XVIIIe siècle : approche quantitative et analyse de réseau bi-parti pour 1726 », in RESHIST, en ligne, URL : <ref type="link" target="https://reshist.hypotheses.org/1663">https://reshist.hypotheses.org/1663</ref>.</bibl>
-         <bibl>Morvan, J, « Éditer une correspondance en XML-TEI », in Inventorier les correspondances des Lumières : Analyse matérielle et traitements numériques, 2022, centre international d’étude du xviiie siècle ferney-voltaire. [à paraître]</bibl>
+         <bibl>Château-Dutier, E. et Morvan, J. Un outil de dépouillement de sources archivistiques basé sur des technologies XML. In : Humanistica. Colloque Humanistica 2021, 10-12 mai 2021, Rennes.</bibl>
+         <bibl>Château-Dutier, E., Morvan, J. et Carvais, R., 2021, « La répartition des affaires au sein de la communauté d’experts-jurés parisiens du bâtiment au XVIIIe siècle : approche quantitative et analyse de réseau bi-parti pour 1726 », in RESHIST, en ligne, URL : <ref type="link" target="https://reshist.hypotheses.org/1663">https://reshist.hypotheses.org/1663</ref>.</bibl>
+         <bibl>Morvan, J., « Éditer une correspondance en XML-TEI », in Inventorier les correspondances des Lumières : Analyse matérielle et traitements numériques, 2022, centre international d’étude du xviiie siècle ferney-voltaire. [à paraître]</bibl>
       </cvEntry>
    </cvPart>
 </curriculum>

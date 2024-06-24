@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="files/cv2html.xsl"?>
+<curriculum>
+   <cvPart type="identity">
+      <persName></persName>
+      <occupation></occupation>
+      <contact>
+         <address>
+            <addrLine></addrLine>
+         </address>
+         <phone></phone>
+         <mail><ref type="mailto" target=""></ref></mail>
+         <github><ref type="link" target=""></ref></github>
+      </contact>
+   </cvPart>
+   <cvPart type="education">
+      <head>Formation</head>
+      <cvEntry type="diploma">
+         <orgName/>
+         <placeName/>
+         <date from="" to=""/>
+         <degree></degree>
+      </cvEntry>
+   </cvPart>
+   <cvPart type="examination">
+      <head>Concours</head>
+      <cvEntry type="examination">
+         <orgName/>
+         <desc></desc>
+         <date when=""/>
+         <rank/>
+      </cvEntry>
+   </cvPart>
+   <cvPart type="workExperience">
+      <head>Expérience professionnelle</head>
+      <cvEntry type="experience">
+         <position></position>
+         <orgName></orgName>
+         <placeName></placeName>
+         <date from="" to=""/>
+         <list type="tasks">
+            <item/>
+         </list>
+         <list type="resources">
+            <item><ref type="link" target=""></ref></item>
+         </list>
+      </cvEntry>
+   </cvPart>
+   <cvPart type="skills">
+      <head>Compétences techniques</head>
+      <cvEntry type="programming">
+         <head/>
+         <list>
+            <item/>
+         </list>
+      </cvEntry>
+   </cvPart>
+   <cvPart type="other">
+      <head>Projets open source</head>
+      <cvEntry type="project">
+         <head></head>
+         <desc></desc>
+         <list type="resources">
+            <item><ref type="link" target=""></ref></item>
+         </list>
+      </cvEntry>
+   </cvPart>
+   <cvPart type="publications">
+      <head>Liste des travaux / publications</head>
+      <cvEntry type="scholar">
+         <head/>
+         <bibl/>
+      </cvEntry>
+   </cvPart>
+</curriculum>

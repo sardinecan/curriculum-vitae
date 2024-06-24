@@ -52,9 +52,94 @@
          <date when="2020-11-09"/>
          <rank>classé n°1 sur la liste complémentaire</rank>
       </cvEntry>
+      <cvEntry type="examination">
+         <orgName>CNRS</orgName>
+         <desc>Concours externe n° 85 BAP D pour l’accès au corps des Ingénieurs d'études</desc>
+         <date when="2022-10-03"/>
+         <rank>classé n°1 sur la liste complémentaire</rank>
+      </cvEntry>
    </cvPart>
    <cvPart type="workExperience">
       <head>Expérience professionnelle</head>
+      <cvEntry type="experience">
+         <position>Ingénieur d’étude (mi-temps)</position>
+         <orgName>Université Paris-Nanterre – LabEx les passés dans le présent, projet Ledoux</orgName>
+         <date from="2023-10-16" to="2024-12-31"/>
+         <placeName>Nanterre</placeName>
+         <list type="tasks">
+            <item>Développement d'un outil d'indexation fondé sur l'utilisation de XPointer et du standard XForms ;</item>
+            <item>réalisation d'une feuille de transformation XSLT pour la rétroconvertion docx vers TEI du catalogue Ledoux.</item>
+         </list>
+         <list type="resources">
+            <item><ref type="link" target="https://github.com/publicarchi/ledouxIndexing/">Outil d'indexation</ref></item>
+            <item><ref type="link" target="https://github.com/publicarchi/ledouxImport">Retroconversion du catalogue Ledoux</ref></item>
+         </list>
+      </cvEntry>
+      <cvEntry type="experience">
+         <position>Enseignant vacataire</position>
+         <orgName>Université Paris Nanterre - UFR PHILLIA</orgName>
+         <placeName>Nanterre</placeName>
+         <date from="2023-09-01" to="2023-12-31"/>
+         <list type="tasks">
+            <item>Communiquer, collaborer, échanger à l'ère numérique ;</item>
+            <item>cours d'introduction aux langages HTML et CSS en master 1 mention Information, communication [Documents électroniques et flux d’informations].</item>
+         </list>
+      </cvEntry>
+      <cvEntry type="experience">
+         <position>Ingénieur d’étude (mi-temps)</position>
+         <orgName>CNRS — Centre de Théorie et d'Analyse du Droit - projet À dires d'experts</orgName>
+         <placeName>Nanterre</placeName>
+         <date from="2023-08-01" to="2024-06-30"/>
+         <list type="tasks">
+            <item>Analyse du langage des procès-verbaux d'expertise du bâtiment du XVIIIe siècle ;</item>
+            <item>sélection des affaires à transcrire parmi les documents numérisés par l'équipe du projet ;</item>
+            <item>mise en place d'une chaîne de traitement documentaire utilisant le logiciel eScriptorium ;</item>
+            <item>analyse lexicale et quantitative des affaires en utilisant des technologies de TAL et d'analyse du discours.</item>
+         </list>
+      </cvEntry>
+      <cvEntry type="experience">
+         <position>Ingénieur d’étude (auto-entreprise)</position>
+         <orgName>Université Paris VIII – Laboratoire d’Économie Dionysien - projet Inventaire Condorcet</orgName>
+         <placeName>Saint-Denis</placeName>
+         <date from="2023-04-01" to="2023-06-14"/>
+         <list type="tasks">
+            <item>Encadrement et formation de deux stagiaires pour l'encodage en XML-TEI de la correspondance de Condorcet et le développement d'une application web reposant sur XQuery ;</item>
+            <item>refonte de la carte de la correspondance générale et de la carte de la correspondance scientifique avec R et Shiny.</item>
+         </list>
+         <list type="resources">
+            <item><ref type="link" target="https://analytics.huma-num.fr/Josselin.Morvan/condorcetCorrespondance/">Carte de la correspondance générale</ref></item>
+            <item><ref type="link" target="https://analytics.huma-num.fr/Josselin.Morvan/condorcetScientifique/">Carte de de la correspondance scientifique</ref></item>
+         </list>
+      </cvEntry>
+      <cvEntry type="experience">
+         <position>Ingénieur d’étude (auto-entreprise)</position>
+         <orgName>ANR Pratiques des savoirs entre jugement et innovation. Experts, expertises du bâtiment, Paris 1690-1790 – EXPERTS</orgName>
+         <placeName>Paris</placeName>
+         <date from="2022-02-01" to="2023-05-31"/>
+         <list type="tasks">
+            <item>Développement d'un client pour la publication des données de la recherche avec le framework <ref type="link" target="https://kit.svelte.dev/">Svelte</ref> ;</item>
+            <item>nettoyage des données ;</item>
+            <item>conversion des données XML vers JSON ;</item>
+            <item>refonte et alignement du modèle prosopographique avec la norme EAC-CPF v2 ;</item>
+            <item>développement d'un script Julia pour le dépôt de fichiers sur Nakala ;</item>
+            <item>rédaction d'un script Xquery pour la création de manifestes IIIF à partir des images déposées sur Nakala (API presentation) ;</item>
+            <item>intégration d'une visionneuse IIIF pour l'application web du projet.</item>
+         </list>
+         <list type="resources">
+            <item><ref type="link" target="https://experts.huma-num.fr">Application Experts</ref></item>
+            <item><ref type="link" target="https://github.com/anrExperts">Répertoires Github du projet</ref></item>
+         </list>
+      </cvEntry>
+      <cvEntry type="experience">
+         <position>Enseignant vacataire</position>
+         <orgName>Université Paris Nanterre - UFR PHILLIA</orgName>
+         <placeName>Nanterre</placeName>
+         <date from="2022-09-01" to="2022-12-31"/>
+         <list type="tasks">
+            <item>Communiquer, collaborer, échanger à l'ère numérique ;</item>
+            <item>cours d'introduction aux langages HTML et CSS en master 1 mention Information, communication [Documents électroniques et flux d’informations].</item>
+         </list>
+      </cvEntry>
       <cvEntry type="experience">
          <position>Ingénieur d’étude (auto-entreprise)</position>
          <orgName>Université Paris VIII – Laboratoire d’Économie Dionysien - projet Inventaire Condorcet</orgName>
@@ -81,29 +166,13 @@
          </list>
       </cvEntry>
       <cvEntry type="experience">
-         <position>Ingénieur d’étude (auto-entreprise)</position>
-         <orgName>ANR Pratiques des savoirs entre jugement et innovation. Experts, expertises du bâtiment, Paris 1690-1790 – EXPERTS</orgName>
-         <placeName>Paris</placeName>
-         <date from="2022-02-01" to="2022-09-30"/>
-         <list type="tasks">
-            <item>Développement d'un client pour la publication des données de la recherche avec le framework <ref type="link" target="https://kit.svelte.dev/">Svelte</ref> ;</item>
-            <item>nettoyage des données ;</item>
-            <item>conversion des données XML vers JSON ;</item>
-            <item>refonte et alignement du modèle prosopographique avec la norme EAC-CPF v2.</item>
-         </list>
-         <list type="resources">
-            <item><ref type="link" target="https://experts.huma-num.fr">Application Experts</ref></item>
-            <item><ref type="link" target="https://github.com/anrExperts">Répertoires Github du projet</ref></item>
-         </list>
-      </cvEntry>
-      <cvEntry type="experience">
          <position>Enseignant vacataire</position>
          <orgName>Université Paris Nanterre - UFR PHILLIA</orgName>
          <placeName>Nanterre</placeName>
          <date from="2021-10-01" to="2021-12-31"/>
          <list type="tasks">
-            <item>Cours d’informatique pour la gestion de l’information ;</item>
-            <item>introduction aux technologies XML master 1 mention Information, communication [Documents électroniques et flux d’informations].</item>
+            <item>Informatique pour la gestion de l’information ;</item>
+            <item>cours d’introduction aux technologies XML en master 1 mention Information, communication [Documents électroniques et flux d’informations].</item>
          </list>
       </cvEntry>
       <cvEntry type="experience">
@@ -262,7 +331,7 @@
          </list>
          <list type="resources">
             <item><ref type="link" target="https://github.com/sardinecan/horel">fichiers sources</ref></item>
-            <intem><ref type="link" target="http://www.bdic.fr/expositions/horel/">Site web de l’édition</ref></intem>
+            <item><ref type="link" target="http://www.lacontemporaine.fr/expositions/horel/">Site web de l’édition</ref></item>
          </list>
       </cvEntry>
       <cvEntry type="experience">
@@ -356,7 +425,7 @@
          </list>
       </cvEntry>
    </cvPart>
-   <cvPart type="openSource">
+   <cvPart type="other">
       <head>Projets open source</head>
       <cvEntry type="project">
          <head>eacForms</head>
@@ -383,7 +452,7 @@
          <head>Communications</head>
          <bibl>Château-Dutier, E. et Morvan, J. Un outil de dépouillement de sources archivistiques basé sur des technologies XML. In : Humanistica. Colloque Humanistica 2021, 10-12 mai 2021, Rennes.</bibl>
          <bibl>Château-Dutier, E., Morvan, J. et Carvais, R., 2021, « La répartition des affaires au sein de la communauté d’experts-jurés parisiens du bâtiment au XVIIIe siècle : approche quantitative et analyse de réseau bi-parti pour 1726 », in RESHIST, en ligne, URL : <ref type="link" target="https://reshist.hypotheses.org/1663">https://reshist.hypotheses.org/1663</ref>.</bibl>
-         <bibl>Morvan, J., « Éditer une correspondance en XML-TEI », in Inventorier les correspondances des Lumières : Analyse matérielle et traitements numériques, 2022, centre international d’étude du xviiie siècle ferney-voltaire. [à paraître]</bibl>
+         <bibl>Morvan, J., « Éditer une correspondance en XML-TEI », in Inventorier les correspondances des Lumières : Analyse matérielle et traitements numériques, 2023, centre international d’étude du xviiie siècle ferney-voltaire.</bibl>
       </cvEntry>
    </cvPart>
 </curriculum>

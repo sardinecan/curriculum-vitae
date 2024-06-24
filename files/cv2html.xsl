@@ -31,7 +31,7 @@
       </div>
    </xsl:template>
    
-   <xsl:template match="cvPart">
+   <xsl:template match="cvPart[normalize-space(.)!='']">
       <div class="{@type}">
          <xsl:apply-templates/>
       </div>
@@ -59,7 +59,7 @@
       </xsl:choose>
    </xsl:template>
    
-   <xsl:template match="cvEntry">
+   <xsl:template match="cvEntry[normalize-space(.)!='']">
       <section class="cvEntry">
          <xsl:apply-templates select="date | head"/>
          <section class="desc">
@@ -69,16 +69,16 @@
                <xsl:apply-templates select="orgName"/>
                <xsl:text>, </xsl:text><xsl:apply-templates select="placeName | desc"/>
             </header>
-            <xsl:apply-templates select="list | degree |rank"/>
+            <xsl:apply-templates select="list[normalize-space()!=''] | degree[normalize-space()!=''] | rank[normalize-space()!='']"/>
          </section>
       </section>
    </xsl:template>
    
-   <xsl:template match="cvPart[@type='skills' or @type='openSource' or @type='publications']/cvEntry">
+   <xsl:template match="cvPart[@type='skills' or @type='other' or @type='publications']/cvEntry[normalize-space(.)!='']">
       <section class="cvEntry">
          <xsl:apply-templates select="head"/>
          <section class="desc">
-            <xsl:apply-templates select="list | desc | bibl"/>
+            <xsl:apply-templates select="list[normalize-space()!=''] | desc[normalize-space()!=''] | bibl[normalize-space()!='']"/>
          </section>
       </section>
    </xsl:template>
@@ -213,7 +213,7 @@
       <section class="{local-name(.)}">
          <h3>Coordonnées</h3>
          <ul>
-            <xsl:for-each select="*">
+            <xsl:for-each select="*[normalize-space(.)!='']">
                <li class="{local-name(.)}"><xsl:apply-templates/></li>
             </xsl:for-each>
          </ul>

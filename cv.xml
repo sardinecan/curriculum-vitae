@@ -12,6 +12,7 @@
          <phone>+33 6 60 12 14 20</phone>
          <mail><ref type="mailto" target="morvan.josselin@gmail.com">morvan.josselin@gmail.com</ref></mail>
          <github><ref type="link" target="https://github.com/sardinecan">sardinecan</ref></github>
+         <website><ref type="link" target="https://log-dh.vercel.app/">log-dh.vercel.app</ref></website>
       </contact>
    </cvPart>
    <cvPart type="education">
@@ -63,30 +64,6 @@
       <head>Expérience professionnelle</head>
       <cvEntry type="experience">
          <position>Ingénieur d’étude (mi-temps)</position>
-         <orgName>Université Paris-Nanterre – LabEx les passés dans le présent, projet Ledoux</orgName>
-         <date from="2023-10-16" to="2024-12-31"/>
-         <placeName>Nanterre</placeName>
-         <list type="tasks">
-            <item>Développement d'un outil d'indexation fondé sur l'utilisation de XPointer et du standard XForms ;</item>
-            <item>réalisation d'une feuille de transformation XSLT pour la rétroconvertion docx vers TEI du catalogue Ledoux.</item>
-         </list>
-         <list type="resources">
-            <item><ref type="link" target="https://github.com/publicarchi/ledouxIndexing/">Outil d'indexation</ref></item>
-            <item><ref type="link" target="https://github.com/publicarchi/ledouxImport">Retroconversion du catalogue Ledoux</ref></item>
-         </list>
-      </cvEntry>
-      <cvEntry type="experience">
-         <position>Enseignant vacataire</position>
-         <orgName>Université Paris Nanterre - UFR PHILLIA</orgName>
-         <placeName>Nanterre</placeName>
-         <date from="2023-09-01" to="2023-12-31"/>
-         <list type="tasks">
-            <item>Communiquer, collaborer, échanger à l'ère numérique ;</item>
-            <item>cours d'introduction aux langages HTML et CSS en master 1 mention Information, communication [Documents électroniques et flux d’informations].</item>
-         </list>
-      </cvEntry>
-      <cvEntry type="experience">
-         <position>Ingénieur d’étude (mi-temps)</position>
          <orgName>CNRS — Centre de Théorie et d'Analyse du Droit - projet À dires d'experts</orgName>
          <placeName>Nanterre</placeName>
          <date from="2023-08-01" to="2024-06-30"/>
@@ -95,6 +72,20 @@
             <item>sélection des affaires à transcrire parmi les documents numérisés par l'équipe du projet ;</item>
             <item>mise en place d'une chaîne de traitement documentaire utilisant le logiciel eScriptorium ;</item>
             <item>analyse lexicale et quantitative des affaires en utilisant des technologies de TAL et d'analyse du discours.</item>
+         </list>
+      </cvEntry>
+      <cvEntry type="experience">
+         <position>Ingénieur d’étude (mi-temps)</position>
+         <orgName>Université Paris-Nanterre – LabEx les passés dans le présent, projet Ledoux</orgName>
+         <date from="2023-10-16" to="2023-12-31"/>
+         <placeName>Nanterre</placeName>
+         <list type="tasks">
+            <item>Développement d'un outil d'indexation fondé sur l'utilisation de XPointer et du standard XForms ;</item>
+            <item>réalisation d'une feuille de transformation XSLT pour la rétroconvertion docx vers TEI du catalogue Ledoux.</item>
+         </list>
+         <list type="resources">
+            <item><ref type="link" target="https://github.com/publicarchi/ledouxIndexing/">Outil d'indexation</ref></item>
+            <item><ref type="link" target="https://github.com/publicarchi/ledouxImport">Retroconversion du catalogue Ledoux</ref></item>
          </list>
       </cvEntry>
       <cvEntry type="experience">
@@ -131,16 +122,6 @@
          </list>
       </cvEntry>
       <cvEntry type="experience">
-         <position>Enseignant vacataire</position>
-         <orgName>Université Paris Nanterre - UFR PHILLIA</orgName>
-         <placeName>Nanterre</placeName>
-         <date from="2022-09-01" to="2022-12-31"/>
-         <list type="tasks">
-            <item>Communiquer, collaborer, échanger à l'ère numérique ;</item>
-            <item>cours d'introduction aux langages HTML et CSS en master 1 mention Information, communication [Documents électroniques et flux d’informations].</item>
-         </list>
-      </cvEntry>
-      <cvEntry type="experience">
          <position>Ingénieur d’étude (auto-entreprise)</position>
          <orgName>Université Paris VIII – Laboratoire d’Économie Dionysien - projet Inventaire Condorcet</orgName>
          <placeName>Saint-Denis</placeName>
@@ -163,16 +144,6 @@
             <item><ref type="link" target="https://testaments-de-poilus.huma-num.fr/#!/">Plateforme de transcription</ref></item>
             <item><ref type="link" target="https://edition-testaments-de-poilus.huma-num.fr/">Plateforme d’édition</ref></item>
             <item><ref type="link" target="https://github.com/ArchivesNationalesFR/editionTestamentsDePoilus">Transcriptions XML-TEI des testaments</ref></item>
-         </list>
-      </cvEntry>
-      <cvEntry type="experience">
-         <position>Enseignant vacataire</position>
-         <orgName>Université Paris Nanterre - UFR PHILLIA</orgName>
-         <placeName>Nanterre</placeName>
-         <date from="2021-10-01" to="2021-12-31"/>
-         <list type="tasks">
-            <item>Informatique pour la gestion de l’information ;</item>
-            <item>cours d’introduction aux technologies XML en master 1 mention Information, communication [Documents électroniques et flux d’informations].</item>
          </list>
       </cvEntry>
       <cvEntry type="experience">
@@ -378,6 +349,29 @@
          <date from="2008-02-01" to="2008-08-31"/>
       </cvEntry>
    </cvPart>
+   <cvPart type="teaching">
+      <head>Enseignements</head>
+      <cvEntry type="experience">
+         <position>Enseignant vacataire</position>
+         <orgName>Université Paris Nanterre - UFR PHILLIA</orgName>
+         <placeName>Nanterre</placeName>
+         <date from="2022" to="2024"/>
+         <list type="tasks">
+            <item>Communiquer, collaborer, échanger à l'ère numérique ;</item>
+            <item>cours d'introduction aux langages HTML et CSS en master 1 mention Information, communication [Documents électroniques et flux d’informations].</item>
+         </list>
+      </cvEntry>
+      <cvEntry type="experience">
+         <position>Enseignant vacataire</position>
+         <orgName>Université Paris Nanterre - UFR PHILLIA</orgName>
+         <placeName>Nanterre</placeName>
+         <date from="2021" to="2021"/>
+         <list type="tasks">
+            <item>Informatique pour la gestion de l’information ;</item>
+            <item>cours d’introduction aux technologies XML en master 1 mention Information, communication [Documents électroniques et flux d’informations].</item>
+         </list>
+      </cvEntry>
+   </cvPart>
    <cvPart type="skills">
       <head>Compétences techniques</head>
       <cvEntry type="programming">
@@ -435,24 +429,60 @@
             <item><ref type="link" target="https://github.com/sardinecan/eacForms">code source</ref></item>
          </list>
       </cvEntry>
+      <cvEntry type="project">
+         <head>BiographiX</head>
+         <desc>Une application web pour la saisie de données prosopographiques et biographiques réalisée avec BaseX et fondée sur le format XML EAC-CPF.</desc>
+         <list type="resources">
+            <item><ref type="link" target="https://github.com/sardinecan/biographiX">code source</ref></item>
+         </list>
+      </cvEntry>
+      <cvEntry type="project">
+         <head>Nakalia</head>
+         <desc>L'API Nakala avec Julia !</desc>
+         <list type="resources">
+            <item><ref type="link" target="https://github.com/sardinecan/nakalia">code source</ref></item>
+         </list>
+      </cvEntry>
+      <cvEntry type="project">
+         <head>Pic'n'Crop</head>
+         <desc>Un outil réalisé avec Julia pour découper des images dans une interface simple.</desc>
+         <list type="resources">
+            <item><ref type="link" target="https://github.com/sardinecan/picncrop">code source</ref></item>
+         </list>
+      </cvEntry>
    </cvPart>
    <cvPart type="publications">
       <head>Liste des travaux / publications</head>
-      <cvEntry type="scholar">
+      <cvEntry>
+         <bibl>Morvan, Josselin, et Emmanuel Château-Dutier. « Saisir des annuaires historiques avec XForms ». Programming Historian, à paraître.</bibl>
+         <bibl>Château-Dutier, Emmanuel, et Josselin Morvan. « Un outil de dépouillement de sources archivistiques basé sur des technologies XML ». In Colloque Humanistica 2021. Recueil des résumés. Rennes, 10-12 mai 2021: Zenodo, 2021. https://doi.org/10.5281/ZENODO.4745006.</bibl>
+         <bibl>Chateau-Dutier, Emmanuel, Josselin Morvan, et Robert Carvais. « La répartition des affaires au sein de la communauté d’experts-jurés parisiens du bâtiment au XVIIIe siècle : approche quantitative et analyse de réseau bi-parti pour 1726 ». In 6e rencontre Res-Hist. Aix-en-Provence, 21-22 octobre 2021, 2021. https://reshist.hypotheses.org/1663.</bibl>
+         <bibl>Maurel, Lionel, et Josselin Morvan. « Les circulations sur le web d’un corpus numérisé : l’exemple des albums Valois ». Research Report. Bibliothèque nationale de France ; Bibliothèque de documentation internationale contemporaine ; Télécom ParisTech, janvier 2017. https://hal.science/hal-01425687.</bibl>
+         <bibl>Morvan, Josselin. « Éditer une correspondance en XML-TEI ». In Inventorier les correspondances des Lumières. Analyse matérielle et traitements numériques, textes réunis et présentés par Claire Bustarret avec la collaboration d’Emmanuelle de Champs et Nicolas Rieucau. Paris: Centre international d’étude du XVIIIe siècle, 2022.</bibl>
+         <bibl>———. « Le devenir du patrimoine numérisé en ligne : étudier la dissémination des images de la Grande Guerre ». Journal de la BDIC, avril 2015.</bibl>
+         <bibl>———. « Modélisation XML-TEI, XSLT et publication web : La correspondance d’Armand Horel, un marin durant la Grande Guerre ». Mémoire de master 2 sous la direction de Frédérique Joannic-Seta, École nationale des chartes, 2015.</bibl>
+         <bibl>———. « Restitution de la table ronde des contributeurs bénévoles au projet Testaments de poilus ». In Colloque de clôture du projet Testaments de Poilus. Pierrefitte-sur-Seine, 2022.</bibl>
+         <bibl>———. « Un modèle d’édition électronique de correspondances ». Journal de la BDIC, octobre 2015.</bibl>
+      </cvEntry>
+      
+      
+      <!--<cvEntry type="scholar">
          <head>Travaux universitaires</head>
          <bibl>Modélisation XML-TEI, XSLT et publication web : La correspondance d’Armand Horel, un marin durant la Grande Guerre, mémoire de master « Technologies numériques appliquées à l’histoire », dir. [Frédérique Joannic-Seta], École nationale des chartes, 2015.</bibl>
       </cvEntry>
       <cvEntry type="article">
          <head>Articles</head>
-         <bibl>« Le devenir du patrimoine numérisé en ligne : étudier la dissémination des images de la Grande Guerre », in Journal de la BDIC, 38 (avril 2015), p. 6-7</bibl>
+         <bibl>Morvan, J. et Château-Dutier, E., « Saisir des annuaires historiques avec XForms », in Programming Historian, a paraître.</bibl>
+         <bibl>Maurel, L. et Morvan, J., Les circulations sur le web d'un corpus numérisé : l'exemple des albums Valois : Rapport final de la phase 3 du projet « Le devenir en ligne du patrimoine numérisé : l'exemple de la Grande Guerre ». [Rapport de recherche] Bibliothèque nationale de France ; Bibliothèque de documentation internationale contemporaine ; Télécom ParisTech. 2017. ⟨<ref type="link" target="https://hal.archives-ouvertes.fr/hal-01425687">hal-01425687</ref>⟩</bibl>
          <bibl>« Un modèle d’édition électronique de correspondances », in Journal de la BDIC, 39 (octobre 2015), p. 3</bibl>
-         <bibl>Maurel, L. et Morvan, J. Les circulations sur le web d'un corpus numérisé : l'exemple des albums Valois : Rapport final de la phase 3 du projet « Le devenir en ligne du patrimoine numérisé : l'exemple de la Grande Guerre ». [Rapport de recherche] Bibliothèque nationale de France ; Bibliothèque de documentation internationale contemporaine ; Télécom ParisTech. 2017. ⟨<ref type="link" target="https://hal.archives-ouvertes.fr/hal-01425687">hal-01425687</ref>⟩</bibl>
+         <bibl>« Le devenir du patrimoine numérisé en ligne : étudier la dissémination des images de la Grande Guerre », in Journal de la BDIC, 38 (avril 2015), p. 6-7</bibl>
       </cvEntry>
       <cvEntry type="communications">
          <head>Communications</head>
-         <bibl>Château-Dutier, E. et Morvan, J. Un outil de dépouillement de sources archivistiques basé sur des technologies XML. In : Humanistica. Colloque Humanistica 2021, 10-12 mai 2021, Rennes.</bibl>
-         <bibl>Château-Dutier, E., Morvan, J. et Carvais, R., 2021, « La répartition des affaires au sein de la communauté d’experts-jurés parisiens du bâtiment au XVIIIe siècle : approche quantitative et analyse de réseau bi-parti pour 1726 », in RESHIST, en ligne, URL : <ref type="link" target="https://reshist.hypotheses.org/1663">https://reshist.hypotheses.org/1663</ref>.</bibl>
+         <bibl>« Restitution de la table ronde des contributeurs bénévoles au projet Testaments de poilus », in Actes du colloque , 2023, centre international d’étude du xviiie siècle ferney-voltaire.</bibl>
          <bibl>Morvan, J., « Éditer une correspondance en XML-TEI », in Inventorier les correspondances des Lumières : Analyse matérielle et traitements numériques, 2023, centre international d’étude du xviiie siècle ferney-voltaire.</bibl>
-      </cvEntry>
+         <bibl>Château-Dutier, E., Morvan, J. et Carvais, R., 2021, « La répartition des affaires au sein de la communauté d’experts-jurés parisiens du bâtiment au XVIIIe siècle : approche quantitative et analyse de réseau bi-parti pour 1726 », in RESHIST, en ligne, URL : <ref type="link" target="https://reshist.hypotheses.org/1663">https://reshist.hypotheses.org/1663</ref>.</bibl>
+         <bibl>Château-Dutier, E. et Morvan, J. Un outil de dépouillement de sources archivistiques basé sur des technologies XML. In : Humanistica. Colloque Humanistica 2021, 10-12 mai 2021, Rennes.</bibl>
+      </cvEntry>-->
    </cvPart>
 </curriculum>

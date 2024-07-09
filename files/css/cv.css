@@ -15,7 +15,7 @@ xforms-repeat[xf-ref="cvEntry"] > xforms-repeat-item {
 
 body {
    font-family: var(--mainFont);
-   font-size: 12px;
+   font-size: 14px;
    width: 800px;
    margin: auto;
    color: rgb(41, 41, 41);
@@ -179,6 +179,20 @@ p.skills {
    background-repeat: no-repeat;
 }
 
+.website:before {
+   background-image: url('../img/picol/globe.svg');
+   background-size: 1em 1em;
+   display: inline-block;
+   position: relative;
+   top: 4px;
+   margin-right: 1em;
+   width: 1em;
+   height: 1em;
+   content: "";
+   background-position: left bottom;
+   background-repeat: no-repeat;
+}
+
 a:link,
 a:visited {
   text-decoration: none;
@@ -186,25 +200,25 @@ a:visited {
 }
 
 
-@page :first {
-   margin: 2cm;
-   margin-top: 1cm;
-}
-@page {
-   margin: 2cm;
-   margin-top: 2.5cm;
-}
-@media print {
-   body {
-      text-align: justify;
-      overflow: visible
-   }
-   
-   .form {
-      display:none;
-   }
 
-   .cvEntry {
-      page-break-inside: avoid;
-   }
+@media print {
+  @page :first {
+    margin: 3cm;
+    margin-top: 1.5cm;
+  }
+  @page {
+    margin: 3cm;
+    margin-top: 2.5cm;
+  }body {
+    text-align: justify;
+    overflow: visible
+  }
+
+  .form {
+    display:none;
+  }
+
+  .publications, .cvEntry {
+    page-break-inside: avoid;
+  }
 }

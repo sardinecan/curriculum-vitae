@@ -68,8 +68,8 @@
          <placeName>Nanterre</placeName>
          <date from="2023-08-01" to="2024-06-30"/>
          <list type="tasks">
-            <item>Analyse du langage des procès-verbaux d'expertise du bâtiment du XVIIIe siècle ;</item>
-            <item>sélection des affaires à transcrire parmi les documents numérisés par l'équipe du projet ;</item>
+            <!--<item>Analyse du langage des procès-verbaux d'expertise du bâtiment du XVIIIe siècle ;</item>-->
+            <item>Sélection des affaires à transcrire parmi les documents numérisés par l'équipe du projet ;</item>
             <item>mise en place d'une chaîne de traitement documentaire utilisant le logiciel eScriptorium ;</item>
             <item>analyse lexicale et quantitative des affaires en utilisant des technologies de TAL et d'analyse du discours.</item>
          </list>
@@ -94,7 +94,8 @@
          <placeName>Saint-Denis</placeName>
          <date from="2023-04-01" to="2023-06-14"/>
          <list type="tasks">
-            <item>Encadrement et formation de deux stagiaires pour l'encodage en XML-TEI de la correspondance de Condorcet et le développement d'une application web reposant sur XQuery ;</item>
+            <item>Encadrement et formation de deux stagiaires pour l'encodage en XML-TEI de la correspondance de Condorcet ;</item>
+            <item>développement d'une API et d'un client web pour la correspondance et les plumitifs ;</item>
             <item>refonte de la carte de la correspondance générale et de la carte de la correspondance scientifique avec R et Shiny.</item>
          </list>
          <list type="resources">
@@ -108,11 +109,11 @@
          <placeName>Paris</placeName>
          <date from="2022-02-01" to="2023-05-31"/>
          <list type="tasks">
-            <item>Développement d'un client pour la publication des données de la recherche avec le framework <ref type="link" target="https://kit.svelte.dev/">Svelte</ref> ;</item>
+            <item>Développement d'un client pour la publication des données (framework <ref type="link" target="https://kit.svelte.dev/">Svelte</ref>) ;</item>
             <item>nettoyage des données ;</item>
-            <item>conversion des données XML vers JSON ;</item>
+            <item>mise en place d'une négociation de contenu sur l'API Experts et conversion des données XML vers JSON ;</item>
             <item>refonte et alignement du modèle prosopographique avec la norme EAC-CPF v2 ;</item>
-            <item>développement d'un script Julia pour le dépôt de fichiers sur Nakala ;</item>
+            <item>rédaction d'une bibliothèque Julia pour le dépôt de fichiers sur Nakala ;</item>
             <item>rédaction d'un script Xquery pour la création de manifestes IIIF à partir des images déposées sur Nakala (API presentation) ;</item>
             <item>intégration d'une visionneuse IIIF pour l'application web du projet.</item>
          </list>
@@ -200,7 +201,7 @@
          <list type="tasks">
             <item>Modélisation XML pour le dépouillement des procès-verbaux d'expertise (sous-série AN Z1J) ;</item>
             <item>développement d’une application web avec BaseX et XQuery, respectant les spécifications RestXQ, pour la saisie, l’enregistrement et la visualisation des données ;</item>
-            <item>état de l’art de la prosopographie numérique, évaluation des modèles de données existants et développement d’un module prosopographique pour l’application Experts aligné sur les standards archivistiques (EAC-CPF (étendu) et Records in Contexts) ;</item>
+            <item>état de l’art de la prosopographie numérique, évaluation des modèles de données existants et développement d’un module prosopographique pour l’application Experts aligné sur les standards archivistiques (EAC-CPF et Records in Contexts) ;</item>
             <item>création des formulaires web avec le standard XForms pour la saisie des données du projet (p-v d’expertise, prosopographie et inventaire après-décès) ;</item>
             <item>participation à l’analyse de réseaux du corpus d’experts : production et analyse des graphes et métriques, Dataviz avec Julia et R.</item>
          </list>
@@ -245,7 +246,10 @@
             <item>transcription et encodage TEI de la Description nouvelle de ce qu’il y a de plus remarquable dans la ville de Paris par Germain Brice, deux tomes (édition de 1684) ;</item>
             <item>transcription et encodage TEI du Paris ancien et nouveau de Charles Le Maire (édition de 1685), trois tomes ;</item>
             <item>participation à la rédaction du cahier des charges pour la maîtrise d’ouvrage pour la réalisation de la charte graphique de l’application des Guides de Paris ;</item>
-            <item>développements XQuery pour la mise en ligne de l’application des Guides de Paris.</item>
+            <item>développements XQuery pour la mise en ligne de l’application des Guides de Paris (framework SynopsX).</item>
+         </list>
+         <list type="resources">
+            <item><ref type="link" target="https://www.guidesdeparis.fr/">Site web des Guides de Paris</ref></item>
          </list>
       </cvEntry>
       <cvEntry type="experience">
@@ -255,7 +259,7 @@
          <date from="2016-04-01" to="2016-05-31"/>
          <list type="tasks">
             <item>Édition électronique de la correspondance Condorcet-Ruault dans le cadre de l'Édition de Khel ;</item>
-            <item>modélisation XML-TEI et réalisation d'un schéma ODD avec manuel d'encodage .</item>
+            <item>modélisation XML-TEI, schéma ODD et manuel d'encodage .</item>
          </list>
       </cvEntry>
       <cvEntry type="experience">
@@ -266,7 +270,7 @@
          <list type="tasks">
             <item>Édition électronique du Journal de Nicolas Durival (transcription des années 1765 et 1766) ;</item>
             <item>modélisation XML-TEI et réalisation d'un schéma ODD avec manuel d'encodage ;</item>
-            <item>Développements XSLT (TEI vers HTML et TEI vers LaTeX).</item>
+            <item>développements XSLT (TEI vers HTML et TEI vers LaTeX).</item>
          </list>
          <list type="resources">
             <item><ref type="link" target="https://github.com/bibstan/ProjetDurival">Fichiers sources</ref></item>
@@ -295,8 +299,8 @@
          <placeName>Nanterre</placeName>
          <date from="2015-04-13" to="2015-07-31"/>
          <list type="tasks">
-            <item>Edition électronique de la correspondance d'Armand Horel (transcription et encodage d'une centaine de cartes postales) ;</item>
-            <item>modélisation XML-TEI et réalisation d'un schéma ODD avec manuel d'encodage ;</item>
+            <item>Édition électronique de la correspondance d'Armand Horel (transcription et encodage d'une centaine de cartes postales) ;</item>
+            <item>modélisation XML-TEI, schéma ODD et manuel d'encodage ;</item>
             <item>création d’un site web pour la publication du corpus (feuille XSLT - CSS - HTML - utilisation de bibliothèques Javascript (géolocalisation et frise chronologique)) ;</item>
             <item>présentation et formation accélérée du personnel de la BDIC sur les possibilités offertes par le langage XML-TEI.</item>
          </list>
@@ -381,8 +385,9 @@
             <item>XQuery</item>
             <item>Julia</item>
             <item>R</item>
+            <item>Python</item>
             <item>php</item>
-            <item>Javascript (notions)</item>
+            <item>Javascript</item>
          </list>
       </cvEntry>
       <cvEntry type="query">
@@ -416,19 +421,12 @@
             <item>Git</item>
             <item>BaseX</item>
             <item>Svelte</item>
+            <item>Franklin.jl</item>
          </list>
       </cvEntry>
    </cvPart>
    <cvPart type="other">
       <head>Projets open source</head>
-      <cvEntry type="project">
-         <head>eacForms</head>
-         <desc>Un formulaire en ligne multilingue pour la création d’instances XML-EAC-CPF (v2) et utilisant le client XSLTForms</desc>
-         <list type="resources">
-            <item><ref type="link" target="https://sardinecan.github.io/eacForms/">Formulaire en ligne (ß)</ref></item>
-            <item><ref type="link" target="https://github.com/sardinecan/eacForms">code source</ref></item>
-         </list>
-      </cvEntry>
       <cvEntry type="project">
          <head>BiographiX</head>
          <desc>Une application web pour la saisie de données prosopographiques et biographiques réalisée avec BaseX et fondée sur le format XML EAC-CPF.</desc>
@@ -448,6 +446,13 @@
          <desc>Un outil réalisé avec Julia pour découper des images dans une interface simple.</desc>
          <list type="resources">
             <item><ref type="link" target="https://github.com/sardinecan/picncrop">code source</ref></item>
+         </list>
+      </cvEntry>
+      <cvEntry type="project">
+         <head>cvForms</head>
+         <desc>Un formulaire web pour rédiger, imprimer et sauvegarder son CV directement dans son navigateur.</desc>
+         <list type="resources">
+            <item><ref type="link" target="https://github.com/sardinecan/cvForms">code source</ref></item>
          </list>
       </cvEntry>
    </cvPart>
